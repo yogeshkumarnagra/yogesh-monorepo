@@ -1,0 +1,22 @@
+{
+  "channel": "Guddu & Whiskey",
+  "language": "hindi",
+  "videosPerDay": 1,
+  "schedules": ["0 10 * * *"],
+  "story": {
+    "scenes": 3
+  },
+  "youtube": {
+    "defaultTags": ["hindi", "shorts", "guddu", "whiskey", "story"],
+    "category": "22",
+    "privacyStatus": "public"
+  },
+  "kling": {
+    "url": "https://klingai.com",
+    "waitTimeoutMs": 300000
+  },
+  "retry": {
+    "maxAttempts": 3,
+    "delayMs": 5000
+  }
+}

@@ -1,0 +1,14 @@
+# Output directories — keep the folder, ignore the contents
+audio/*
+videos/*
+final/*
+images/*
+downloads/*
+subtitles/*
+uploads/*
+stories/*
+bot-profile/
+chrome-profile/
+
+# Don't ignore .gitkeep placeholder files
+!**/.gitkeep

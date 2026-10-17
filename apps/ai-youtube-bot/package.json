@@ -1,0 +1,16 @@
+{
+  "name": "@yogesh/ai-youtube-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start":    "node main.js",
+    "schedule": "node main.js --schedule",
+    "pipeline": "node pipeline.js"
+  },
+  "dependencies": {
+    "edge-tts":   "^1.0.1",
+    "node-cron":  "^4.5.0",
+    "puppeteer":  "^25.2.0"
+  }
+}

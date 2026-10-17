@@ -1,0 +1,44 @@
+{
+  "name": "yogesh-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "// --- DEV SERVERS ---": "",
+    "dev:portfolio":     "npm run dev     --workspace=apps/portfolio",
+    "dev:story-ui":      "npm run dev     --workspace=apps/ai-story-ui",
+    "dev:youtube-bot":   "npm run start   --workspace=apps/ai-youtube-bot",
+
+    "// --- BUILDS (packages first, then apps) ---": "",
+    "build":             "npm run build:packages && npm run build:apps",
+    "build:packages":    "npm run build --workspace=packages/types && npm run build --workspace=packages/utils && npm run build --workspace=packages/ui",
+    "build:apps":        "npm run build:portfolio && npm run build:story-ui",
+    "build:portfolio":   "npm run build   --workspace=apps/portfolio",
+    "build:story-ui":    "npm run build   --workspace=apps/ai-story-ui",
+
+    "// --- SERVE (production) ---": "",
+    "start:portfolio":   "npm run start   --workspace=apps/portfolio",
+    "start:story-ui":    "npm run start   --workspace=apps/ai-story-ui",
+    "start:youtube-bot": "npm run start   --workspace=apps/ai-youtube-bot",
+
+    "// --- LINT ---": "",
+    "lint":              "npm run lint --workspaces --if-present",
+    "lint:portfolio":    "npm run lint    --workspace=apps/portfolio",
+    "lint:story-ui":     "npm run lint    --workspace=apps/ai-story-ui",
+
+    "// --- UTILS ---": "",
+    "clean":             "npx rimraf apps/*/node_modules apps/*/.next packages/*/dist packages/*/node_modules",
+    "install:all":       "npm install"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
