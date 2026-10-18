@@ -8,17 +8,17 @@ serving 100M+ monthly transacting users and processing 8 billion+ transactions a
   location: "Gurgaon, India",
   email: "yogeshkumar.98129@gmail.com",
   phone: "+91 98129 77961",
-  linkedin: "https://linkedin.com/in/yogesh-kumar",
+  linkedin: "https://linkedin.com/in/yogesh-kumar-3a31aa21b",
   github: "https://github.com/yogesh-kumar",
   available: true,
 };
 
 export const stats = [
   { number: "100M+", label: "Monthly Transacting Users" },
-  { number: "8B+", label: "Annual Transactions" },
+  { number: "8B+",   label: "Annual Transactions" },
   { number: "39.4%", label: "Organic Traffic Growth" },
-  { number: "~45%", label: "JS Bundle Reduction" },
-  { number: "4+", label: "Years Experience" },
+  { number: "~45%",  label: "JS Bundle Reduction" },
+  { number: "4+",    label: "Years Experience" },
 ];
 
 export const experiences = [
@@ -29,25 +29,26 @@ export const experiences = [
     location: "Gurgaon, India",
     badge: "Fortune Fintech Innovator Asia 2024 · India's Largest Payments Bank",
     bullets: [
-      "Spearheaded frontend architecture of the Next.js enterprise platform serving **100M+ monthly transacting users** and ₹3,207 Cr in FY26 revenue.",
+      "**Fraud Reporting Platform (14C / I4C Government Integration):** Owned frontend delivery of APB's fraud reporting integration with the Indian Cyber Crime Coordination Centre (I4C), enabling customers to raise cyber fraud complaints directly from the Airtel Thanks App.",
+      "Built transaction listing, filtering, and selection workflows for eligible transactions spanning the previous six months, with a streamlined review and confirmation flow.",
+      "Integrated secure APIs for sharing transaction metadata and customer KYC information with government fraud reporting systems.",
+      "Implemented complaint acknowledgment and reference tracking, including seamless redirection between Airtel Payments Bank and I4C platforms.",
+      "Instrumented comprehensive **Google Analytics** event tracking across the fraud reporting funnel for user-behaviour analysis and business reporting.",
+      "Spearheaded frontend architecture of the **Next.js enterprise web platform** serving **100M+ monthly transacting users** and ₹3,207 Cr in FY26 revenue.",
       "Reduced client-side JavaScript bundle by **~45%** using Next.js Server Components, dynamic imports, and code-splitting.",
       "Improved First Contentful Paint (FCP) by **~40%** through SSR, lazy-loading, and Core Web Vitals optimisation.",
       "Frontend work contributed to **39.4% growth in organic clicks** and a **55% improvement in Google ranking positions** (pos. 14.1 → 6.3).",
       "Drove **73% growth in non-branded organic clicks** and **167% CTR improvement** via GTM + Google Analytics instrumentation.",
       "Engineered Prismic Slice Machine CMS workflow reducing feature delivery time by **30%**.",
-      "Led migration of **5+ legacy Vanilla JS apps** into a unified React/TypeScript Monorepo.",
-      "Delivered customer webviews — **Rewards Hub, Transparent Banking, WhatsApp Banking** — used by millions of active users.",
-      "Designed OTP, KYC, and onboarding authentication flows for a platform processing **8B+ annual transactions**.",
-      "Built an enterprise **UI component library** adopted across multiple distributed teams.",
+      "Led migration of **5+ legacy Vanilla JS apps** into a unified React/TypeScript Monorepo, maximising code reuse.",
+      "Delivered customer-facing WebView platforms — **Rewards Hub, Transparent Banking, WhatsApp Banking** — used by millions of active users.",
+      "Built an enterprise-grade **UI component library** and utility suite, saving cross-functional teams dozens of engineering hours per sprint.",
+      "Implemented robust application monitoring using **Grafana and Kibana** to capture runtime bugs and optimise frontend uptime.",
     ],
     metrics: [
-      "100M+ MTU",
-      "8B+ Transactions/yr",
-      "+39.4% Organic Clicks",
-      "~45% JS Reduction",
-      "+167% Generic CTR",
-      "30% Faster Delivery",
-      "55% Better Rankings",
+      "100M+ MTU", "8B+ Transactions/yr", "+39.4% Organic Clicks",
+      "~45% JS Reduction", "+167% Generic CTR", "30% Faster Delivery",
+      "55% Better Rankings", "I4C Govt. Integration",
     ],
   },
   {
@@ -57,9 +58,9 @@ export const experiences = [
     location: "Remote",
     badge: null,
     bullets: [
-      "Built high-performance, responsive web applications for international clients using **React.js and TypeScript**.",
-      "Integrated **Firebase** for serverless backend, real-time database, and authentication.",
-      "Managed full project lifecycle — scoping, estimation, development, deployment — across 8+ client projects.",
+      "Conceptualised and engineered high-performance responsive web applications for global clients using **React.js and TypeScript**.",
+      "Built secure, serverless database integrations and real-time functions leveraging the **Firebase** ecosystem.",
+      "Owned client engagement from technical scoping and effort estimation through to production deployment and final asset delivery.",
     ],
     metrics: [],
   },
@@ -68,27 +69,23 @@ export const experiences = [
 export const skillCategories = [
   {
     name: "Core Languages",
-    skills: ["TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3", "Python"],
+    skills: ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "Java (Basic)", "Python"],
   },
   {
     name: "Frameworks",
-    skills: ["Next.js", "React.js", "Angular", "Redux Toolkit", "Context API"],
+    skills: ["React.js", "Next.js (App Router)", "Angular", "Redux Toolkit", "Context API", "Storybook"],
   },
   {
     name: "Styling & UI",
-    skills: ["Tailwind CSS", "SCSS", "Material UI", "Storybook", "WCAG / a11y"],
+    skills: ["Tailwind CSS", "SCSS", "Material UI", "Bootstrap", "Responsive Design", "Web Accessibility (a11y)"],
   },
   {
-    name: "Architecture",
-    skills: ["Monorepo", "SSR / SSG", "Microfrontends", "Component Libraries"],
-  },
-  {
-    name: "Tooling & DevOps",
-    skills: ["Git", "Jenkins", "Nginx", "Kong Gateway", "Prismic CMS", "Firebase"],
+    name: "Tooling, DevOps & CMS",
+    skills: ["Monorepo Architecture", "Git", "Bitbucket", "Jenkins", "Nginx", "Kong Gateway", "Prismic CMS", "Slice Machine"],
   },
   {
     name: "Monitoring & Analytics",
-    skills: ["Google Analytics", "GTM", "Grafana", "Kibana", "SEO", "Core Web Vitals"],
+    skills: ["Google Analytics", "Google Tag Manager (GTM)", "Grafana", "Kibana", "SEO Optimization"],
   },
 ];
 
@@ -96,9 +93,17 @@ export const projects = [
   {
     name: "Airtel Payments Bank Website",
     description:
-      "Enterprise-grade Next.js web platform for India's largest payments bank. Serves 100M+ monthly transacting users. Architected SSR, CMS workflows, and authentication flows. Contributed to 39.4% organic traffic growth.",
+      "Enterprise-grade Next.js web platform for India's largest payments bank. Serves 100M+ monthly transacting users. Contributed to 39.4% organic traffic growth.",
     stack: ["Next.js", "TypeScript", "Prismic CMS", "GTM", "GA4", "SSR"],
     liveUrl: "https://www.airtel.in/bank",
+    githubUrl: null,
+  },
+  {
+    name: "Fraud Reporting Platform (14C / I4C)",
+    description:
+      "Government-integrated fraud reporting feature inside the Airtel Thanks App. Lets customers raise cyber fraud complaints with I4C — transaction selection, KYC transmission, and complaint tracking with full GA analytics.",
+    stack: ["React", "TypeScript", "Google Analytics", "REST APIs", "Angular"],
+    liveUrl: null,
     githubUrl: null,
   },
   {
@@ -112,7 +117,7 @@ export const projects = [
   {
     name: "Webview Platform — Rewards Hub",
     description:
-      "Customer-facing React/TypeScript webview for the Airtel super-app ecosystem. Rewards Hub, Transparent Banking, and WhatsApp Banking — used by millions of active users monthly inside a unified Monorepo.",
+      "Customer-facing React/TypeScript webview for the Airtel super-app. Rewards Hub, Transparent Banking, WhatsApp Banking — used by millions of active users monthly.",
     stack: ["React", "TypeScript", "Monorepo", "Grafana", "Kibana"],
     liveUrl: null,
     githubUrl: null,
@@ -120,16 +125,24 @@ export const projects = [
   {
     name: "Enterprise UI Component Library",
     description:
-      "Internal UI library built with React, TypeScript, and Storybook. Adopted across multiple distributed development teams at Airtel Payments Bank. Enforces design-system consistency and reduces per-sprint component work.",
+      "Internal UI library built with React, TypeScript, and Storybook. Adopted across multiple distributed teams at Airtel Payments Bank.",
     stack: ["React", "TypeScript", "Storybook", "SCSS", "Tailwind"],
     liveUrl: null,
     githubUrl: null,
   },
 ];
 
-export const education = {
-  institution: "University of Delhi",
-  degree: "B.Sc. Computer Science",
-  period: "2017 – 2020",
-  location: "Delhi, India",
-};
+export const education = [
+  {
+    institution: "SS International University",
+    degree: "Master of Computer Applications (MCA)",
+    period: "2022 – 2025",
+    location: "Online",
+  },
+  {
+    institution: "University of Delhi",
+    degree: "B.Sc. Computer Science",
+    period: "2017 – 2020",
+    location: "Delhi, India",
+  },
+];
