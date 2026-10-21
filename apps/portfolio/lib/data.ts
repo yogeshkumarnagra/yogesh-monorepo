@@ -146,3 +146,9 @@ export const education = [
     location: "Delhi, India",
   },
 ];
+
+export const achievements = [
+  "Built the foundational customer authentication architecture deployed across Airtel Payments Bank web channels.",
+  "Successfully eliminated massive code duplication by centralising multi-app webviews into a scalable monorepo structure.",
+  "Developed an internal UI library adopted across multiple distributed development teams to ensure design-language consistency.",
+];

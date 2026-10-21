@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "version": 2,
-    "lastUpdated": "2026-10-17T18:30:00.000Z",
-    "publishedAt": "2026-10-17T18:30:00.000Z"
+    "version": 3,
+    "lastUpdated": "2026-10-17T19:00:00.000Z",
+    "publishedAt": "2026-10-17T19:00:00.000Z"
   },
   "profile": {
     "name": "Yogesh Kumar",
@@ -125,5 +125,10 @@
       "period": "2017 – 2020",
       "location": "Delhi, India"
     }
+  ],
+  "achievements": [
+    "Built the foundational customer authentication architecture deployed across Airtel Payments Bank web channels.",
+    "Successfully eliminated massive code duplication by centralising multi-app webviews into a scalable monorepo structure.",
+    "Developed an internal UI library adopted across multiple distributed development teams to ensure design-language consistency."
   ]
 }
